@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
 }
+/*About section styling*/
 #about{
     text-align: center;
     color: black;
@@ -32,6 +33,32 @@
 #about h1::after {
   content: '';
   background: #222;
+  display: block;
+  height: 2px;
+  width: 15%;
+  margin: 15px auto 45px;
+}
+/*Services section styling*/
+#services{
+    background: url(../img/s_image.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    /*found a trick to do this at:https://css-tricks.com/perfect-full-page-background-image/*/
+  }
+
+#services .info { 
+   padding-top: 150px; 
+   padding-bottom: 150px; 
+ }  
+ /*Adding a line at the bottom of the h1*/
+#services h1::after {
+  content: '';
+  background: white;
   display: block;
   height: 2px;
   width: 15%;
