@@ -64,3 +64,46 @@
   width: 15%;
   margin: 15px auto 45px;
 }
+
+
+/*What we do section styling*/
+
+.contents1, .contents2, .contents3 p {
+    font-size: 14px;
+  }
+.contents1, .contents2, .contents3{
+    display: none;
+  
+  }
+.col-md-4 h6{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: bold; 
+}
+  
+.col-md-4{
+    height: 180px ;
+}
+  
+#what h1{
+    text-align: center;
+}
+
+#what {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    text-align: center;
+
+}
+#what h1::after {
+    content: '';
+    background: #222;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 15px auto 45px;
+  }
+.icon1, .icon2, .icon3{
+  display: show;
+}
