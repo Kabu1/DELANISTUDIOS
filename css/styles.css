@@ -216,3 +216,32 @@
   #contact h1{
     text-align: center;
   }
+    /*form styling*/
+#form-contact .form-control {
+    background-color: transparent;
+    border-color: white;
+    font-size: 23px;
+    color: white;
+  }
+  #form-contact .form-control:focus {
+    color: #fff;
+  }
+  #response{
+    display: none;
+  }
+  form .btn:hover {
+    background: green;
+    font-weight: 200;
+    border-radius: 15px;
+  }
+  form .btn {
+    background: #111;
+    font-weight: 250;
+  }
+/*footer section styling*/
+#footer {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }  
