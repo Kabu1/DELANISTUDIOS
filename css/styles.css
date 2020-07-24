@@ -1,0 +1,25 @@
+/*fast section/front styling*/
+#front
+{
+    background: url(../img/h_img.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    /*found a trick to do this at:https://css-tricks.com/perfect-full-page-background-image/*/
+}
+.mouse {
+  position: absolute;
+  bottom: 50px;
+  /*places the mouse click button 50px relative to its parent position*/
+}
+.site-front {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
