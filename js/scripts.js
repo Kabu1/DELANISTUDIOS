@@ -4,6 +4,7 @@ $(document).ready(function(){
     $(".column1").click(function(){
         $(".icon1").toggle();
         $(".contents1").toggle();
+
     });
     $(".column2").click(function(){
         $(".icon2").toggle();
@@ -15,8 +16,31 @@ $(document).ready(function(){
         $(".contents3").toggle();
 
     });
-    event.preventDefault();
 
+    //form for collecting information
+    $("#form-contact").submit(function(event){
+       
+       //longer version that doesnt user loop
 
+       //var nameInput = $("input#name").val();
+       //var emailInput = $("input#email").val();
+       //var messageInput = $("input#message").val();
+
+        //$(".name").text(nameInput);
+        //$(".email").text(emailInput);
+        //$(".message").text(messageInput);
+
+        //shorter version of the same code
+        var blanks = ["name", "email", "message"];
+        blanks.forEach(function(blank){
+            var userInput = $("input#" +blank).val();
+            $("."+ blank).text(userInput);
+        });
+
+        $("#response").show();
+        
+        event.preventDefault();
+
+    });
 
 });
