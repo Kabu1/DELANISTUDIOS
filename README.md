@@ -1,6 +1,6 @@
 # DELANI STUDIO
-### A Website for a studio showing their profile including some of the work they have completed so far and their social media platforms
-#### By Benson
+A Website for a studio showing their profile including some of the work they have completed so far and their social media platforms
+ By Benson
 ## Description
 A Website for a studio showing their profile including some of the work they have completed so far and their social media platforms
 ## Setup/Installation Requirements
