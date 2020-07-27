@@ -9,6 +9,14 @@ A Website for a studio showing their profile including some of the work they hav
 * open the folder using a text editor
 * you can view the page by opening index.html file in your browser
 * enjoy
+## Behavior Driven Development
+
+* Clicking the Mouse Button takes you to the About section
+* The icons in what we do section dissapears when you click and a text is displayed
+* The portfolio section hovers when the mouse enters
+* The form takes input and give a response when submitted
+
+
 ## Known Bugs
 No known bugs
 ## Technologies Used
